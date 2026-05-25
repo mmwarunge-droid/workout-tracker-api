@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.env
+.venv/
+venv/
+ENV/
+env/
+*.egg-info/
+build/
+dist/
+
+# Flask / SQLite
+instance/
+*.db
+server/*.db
+server/instance/
+
+# Tooling
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
